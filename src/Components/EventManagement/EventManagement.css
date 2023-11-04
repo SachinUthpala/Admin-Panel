@@ -1,0 +1,52 @@
+.eventManagement{
+    display: none;
+    padding-left: 25px;
+    padding-right: 30px;
+}
+
+.card-container{
+    padding: 10px 0px 0px 30px;
+    display: grid;
+    grid-template-columns: repeat(3 , 340px);
+    gap: 2rem;
+}
+
+.card-container>.card{
+    height: 220px;
+    padding-top: 10px;
+    box-shadow:  rgba(245, 210, 58, 0.308) 1.95px 1.95px 2.6px;;
+    border-radius: 1rem;
+    cursor: pointer;
+    align-content: center;
+    text-align: center;
+    
+}
+
+.card-container>.card:nth-child(1){
+    background: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+}
+
+.card-container>.card:nth-child(2){
+    background: linear-gradient(180deg,#FF919D 0% , #FC929D 100%);
+}
+
+.card-container>.card:nth-child(3){
+    background: radial-gradient(circle at 10% 20%, rgb(255, 200, 124) 0%, rgb(252, 251, 121) 90%);
+
+}
+
+.card-container>.card:nth-child(4){
+    background: radial-gradient(circle at 10% 20%, rgb(255, 200, 124) 0%, rgb(252, 251, 121) 90%);
+}
+
+.card-container>.card:nth-child(5){
+    background: linear-gradient(180deg,#FF919D 0% , #FC929D 100%);
+}
+
+.card-container>.card:nth-child(6){
+    background: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+}
+.card-container>.card>img{
+    width: 100px;
+    height: 100px;
+}

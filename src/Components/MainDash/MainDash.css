@@ -1,0 +1,19 @@
+.MainDash{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 25px;
+    padding-right: 30px;
+}
+
+.Heading>svg{
+    width: 40px;
+    height: 40px;
+    color: #504f4f!important;
+    cursor: pointer;
+    transition: 0.7s!important;
+}
+
+.Heading>svg:hover{
+    color: rgb(255, 130, 81)!important;
+}
